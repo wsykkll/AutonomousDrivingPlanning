@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Planning", "Planning\Planning.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Localization", "Localization\Localization.vcxproj", "{2C7B0471-CB98-4C71-8FF4-9913E5CD1085}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineProcess", "LineProcess\LineProcess.vcxproj", "{F8BA6BDF-8D5A-4C2C-B72E-D3A69FB3EFE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObstacleProcess", "ObstacleProcess\ObstacleProcess.vcxproj", "{F1BF90AE-56D4-4D46-85A3-5D48F6E79EE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+		{2C7B0471-CB98-4C71-8FF4-9913E5CD1085}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C7B0471-CB98-4C71-8FF4-9913E5CD1085}.Debug|Win32.Build.0 = Debug|Win32
+		{2C7B0471-CB98-4C71-8FF4-9913E5CD1085}.Release|Win32.ActiveCfg = Release|Win32
+		{2C7B0471-CB98-4C71-8FF4-9913E5CD1085}.Release|Win32.Build.0 = Release|Win32
+		{F8BA6BDF-8D5A-4C2C-B72E-D3A69FB3EFE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8BA6BDF-8D5A-4C2C-B72E-D3A69FB3EFE6}.Debug|Win32.Build.0 = Debug|Win32
+		{F8BA6BDF-8D5A-4C2C-B72E-D3A69FB3EFE6}.Release|Win32.ActiveCfg = Release|Win32
+		{F8BA6BDF-8D5A-4C2C-B72E-D3A69FB3EFE6}.Release|Win32.Build.0 = Release|Win32
+		{F1BF90AE-56D4-4D46-85A3-5D48F6E79EE5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1BF90AE-56D4-4D46-85A3-5D48F6E79EE5}.Debug|Win32.Build.0 = Debug|Win32
+		{F1BF90AE-56D4-4D46-85A3-5D48F6E79EE5}.Release|Win32.ActiveCfg = Release|Win32
+		{F1BF90AE-56D4-4D46-85A3-5D48F6E79EE5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

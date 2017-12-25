@@ -1,0 +1,29 @@
+struct PERCEPTION_OBSTACLE
+{
+	boolean bValid;
+	byte nType;
+	float fHeading;
+	float fOrient;
+	float fRelX;
+	float fRelY;
+	float fDistance;
+	float fLength;
+	float fWidth;
+	float fRelVelX;
+	float fRelVelY;
+	float fAbsVelX;
+	float fAbsVelY;
+	float fAbsSpeed;
+	float fRelSpeed;
+	byte nMotionTrend;
+	boolean bObservedMoving;
+}
+
+struct PERCEPTION_OBSTACLES
+{
+	HEADER header;
+	PERCEPTION_OBSTACLE gstLeftLaneObstacles[10];
+    PERCEPTION_OBSTACLE gstMiddleLaneObstacles[10];
+    PERCEPTION_OBSTACLE gstRightLaneObstacles[10];
+    PERCEPTION_OBSTACLE gstOutLaneObstacles[40];
+}

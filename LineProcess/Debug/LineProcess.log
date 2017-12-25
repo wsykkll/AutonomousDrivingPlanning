@@ -1,0 +1,23 @@
+﻿Build started 2017/12/21 15:28:24.
+     1>Project "D:\BackUp\Visual Studio 2013\Projects\AutonomousDrivingPlanning\LineProcess\LineProcess.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\msys32\mingw32\include\glib-2.0" /I"C:\msys32\mingw32\lib\glib-2.0\include" /I..\header_msg /I..\lib\tinyxml /ID:\cmake\boost_1_60_0 /I"C:\Program Files (x86)\lcm\include" /I"D:\wsy\OpenCV-2.1.0\build\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LineProcessor.cpp
+         LineProcessor.cpp
+     1>d:\wsy\opencv-2.1.0\build\include\opencv\cvcompat.h(803): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\backup\visual studio 2013\projects\autonomousdrivingplanning\lineprocess\map.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\backup\visual studio 2013\projects\autonomousdrivingplanning\lineprocess\lineprocessor.cpp(1493): warning C4018: '<=' : signed/unsigned mismatch
+     1>d:\backup\visual studio 2013\projects\autonomousdrivingplanning\lineprocess\lineprocessor.cpp(1499): warning C4018: '<=' : signed/unsigned mismatch
+     1>d:\backup\visual studio 2013\projects\autonomousdrivingplanning\lineprocess\lineprocessor.cpp(1723): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\BackUp\Visual Studio 2013\Projects\AutonomousDrivingPlanning\Debug\LineProcess.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\msys32\mingw32\bin /LIBPATH:C:\msys32\mingw32\lib /LIBPATH:..\lib\CoordinateTrans /LIBPATH:..\lib\tinyxml /LIBPATH:"C:\Program Files (x86)\lcm\bin" /LIBPATH:"C:\Program Files (x86)\lcm\lib" /LIBPATH:D:\cmake\boost_1_60_0\stage\lib /LIBPATH:"D:\wsy\OpenCV-2.1.0\build\lib" "C:\msys32\mingw32\lib\libglib-2.0.dll.a" lcm.lib CoordinateTrans.lib cv210d.lib cxcore210d.lib highgui210d.lib tinyxml2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\BackUp\Visual Studio 2013\Projects\AutonomousDrivingPlanning\Debug\LineProcess.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\BackUp\Visual Studio 2013\Projects\AutonomousDrivingPlanning\Debug\LineProcess.lib" /MACHINE:X86 Debug\DoubleLinkedList.obj
+         Debug\LCMHandler.obj
+         Debug\LCMSubscriber.obj
+         Debug\LineProcessor.obj
+         Debug\main.obj
+         Debug\MapGraph.obj
+         LineProcess.vcxproj -> D:\BackUp\Visual Studio 2013\Projects\AutonomousDrivingPlanning\Debug\LineProcess.exe
+     1>Done Building Project "D:\BackUp\Visual Studio 2013\Projects\AutonomousDrivingPlanning\LineProcess\LineProcess.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.37

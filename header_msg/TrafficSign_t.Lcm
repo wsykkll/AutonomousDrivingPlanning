@@ -1,0 +1,9 @@
+struct TSRInfo
+{
+	double lx;
+	double ly;
+	double rx;
+	double ry;
+	double width;
+	double theta;
+}
